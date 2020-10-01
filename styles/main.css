@@ -1,0 +1,46 @@
+@import "./fishlist.css";
+@import "./travel__quotes.css";
+@import "./travel__locations.css";
+@import "./tipsList.css";
+
+body{
+    background-color: #7BB0FF;
+}
+
+header {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    border: 4px solid black;
+    flex-wrap: wrap;
+}
+
+dl {
+    padding-bottom: 2em;
+}
+
+section {
+    padding-bottom: 2em;
+}
+
+p {
+    padding-bottom: 1em;
+}
+
+.contentContainer {
+    display: flex;
+}
+
+.contentContainer__left {
+    flex: 75%;
+}
+
+.contentContainer__right {
+    flex: 25%;
+}
+
+h3 {
+    text-align: center;
+}
