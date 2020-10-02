@@ -15,7 +15,7 @@ header {
     background-color: #7BB0FF;
     padding: 25px;
     margin: 0;
-    border-bottom: solid darkblue 4px;
+    border-bottom: solid white 8px;
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
 img {
     width: 300px;
     height: 200px;
-    border: 4px solid black;
+    border: 8px solid black;
 }
 
 .fish {
@@ -48,7 +48,7 @@ section {
 
 .contentContainer__left {
     flex: 3;
-    border-right: solid darkblue 4px;
+    border-right: solid white 8px;
 }
 
 .contentContainer__right {
