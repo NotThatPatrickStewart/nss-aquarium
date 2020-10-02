@@ -2,10 +2,12 @@
 @import "./travel__quotes.css";
 @import "./travel__locations.css";
 @import "./tipsList.css";
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
 
 body{
-    /* background-color: #7BB0FF; */
+    background-color: #B9E6FF;
     margin: 0;
+    font-family: 'Philosopher';
 }
 
 header {
@@ -13,6 +15,7 @@ header {
     background-color: #7BB0FF;
     padding: 25px;
     margin: 0;
+    border-bottom: solid darkblue 4px;
 }
 
 h1 {
@@ -28,18 +31,15 @@ img {
 .fish {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 dl {
-    padding: 0em 1em 1em 1em;
+    padding: 0em 2em 1em 0em;
 }
 
 section {
     padding-bottom: 2em;
-}
-
-p {
-    padding-bottom: 1em;
 }
 
 .contentContainer {
@@ -48,12 +48,20 @@ p {
 
 .contentContainer__left {
     flex: 3;
+    border-right: solid darkblue 4px;
 }
 
 .contentContainer__right {
     flex: 1;
+    padding-right: 20px;
 }
 
-h3 {
+h2 {
     text-align: center;
+}
+
+.location__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }

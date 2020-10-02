@@ -1,3 +1,5 @@
 .travel__quotes {
     background-color: #B9E6FF;
+    border-bottom: solid darkblue 4px;
+    padding-left: 1em;
 }
